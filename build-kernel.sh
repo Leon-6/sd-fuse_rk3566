@@ -30,8 +30,8 @@ true ${BUILD_THIRD_PARTY_DRIVER:=1}
 true ${KCFG:=nanopi5_linux_defconfig kvm.config}
 true ${TARGET_OS:=$(echo ${1,,}|sed 's/\///g')}
 
-KERNEL_REPO=https://github.com/friendlyarm/kernel-rockchip
-KERNEL_BRANCH=nanopi6-v6.1.y
+KERNEL_REPO=https://github.com/Leon-6/linux-kernel
+KERNEL_BRANCH=nanopi3-latest
 ARCH=arm64
 KALL=nanopi5-images
 BACKPORT=
